@@ -103,4 +103,39 @@ p="izaz "
 q="Ahmed Emon"
 print(p.join(q))
 
+print("=====================")
+print("=====================")
+print("======== string state checking =============")
+
+# string state checking
+
+data='python'
+data2='PYTHON'
+data3='PYTHOn'
+data1='python 123'
+data4='123'
+data6='123.233'
+data5='12a87'
+print(data.isalpha())
+print(data1.isalpha())
+print(data.islower())
+print(data.isupper())
+print(data2.isupper())
+print(data3.isupper())
+print(data4.isdigit())
+print(data5.isdigit())
+print(data4.isdecimal())
+print(data6.isdecimal())
+print("=====================")
+data7='else'
+data8='Hello world'
+data9='Hello World'
+data11='Hello World'
+data10='  '
+print(data7.isidentifier())
+print(data8.istitle())
+print(data9.istitle())
+print(data11.isspace())
+print(data10.isspace())
+
 
