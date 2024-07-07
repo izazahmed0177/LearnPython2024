@@ -39,5 +39,34 @@ print(z)
 
 print("=====================")
 print("=====================")
-print("========string formating=============")
+print("========Scape Sequence=============")
+
+# Scape Sequence
+
+name="hello\nworld\npython"
+name1="hello\n'world'\npython"
+name2="hello\n\"world\"\npython"
+name3="hello\n\"world\"\npython  learn"
+name4="hello\n\"world\"\npython\tlearn"
+name5="hello\n\"world\"\npython\t/\learn"
+name6="hello\n\"world\"\npython\t\/learn"
+print(name)
+print(name1)
+print(name2)
+print("==============")
+print(name3)
+print(name4)
+print(name5)
+print(name6)
+name7="hello\n\"world\"\npython\tlearn\b"
+print("==============")
+print(name7)
+str3="my country Bangladesh"
+str4="my country is \rBangladesh"
+str5="my country \ris Bangladesh"
+
+print(str3)
+print(str4)
+print(str5)
+
 
