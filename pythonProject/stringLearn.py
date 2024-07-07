@@ -69,4 +69,38 @@ print(str3)
 print(str4)
 print(str5)
 
+print("=====================")
+print("=====================")
+print("======== string operators =============")
+# string operators
+value=" hello"
+value2=" hello"
+value0=" hello"
+value1=" world"
+print( value * 5 )
+print( value0 + value1 )
+print('a' in value2)
+print('e' in value2)
+print('e' not in value2)
+
+print("=====================")
+print("=====================")
+print("======== string modify =============")
+# string modify
+
+n="haPPy New year"
+print(n)
+print(n.lower())
+print(n.casefold())
+print(n.upper())
+print(n.capitalize())
+print(n.title())
+print(n.swapcase())
+print(n.split())
+print(n.replace('New','old'))
+print("========")
+p="izaz "
+q="Ahmed Emon"
+print(p.join(q))
+
 
